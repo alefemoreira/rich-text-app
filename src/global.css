@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    /* display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center; */
+    
+    background: #E5E6F0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+    /* font-family: Roboto, sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
